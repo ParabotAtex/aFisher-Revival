@@ -16,6 +16,7 @@ import java.util.ArrayList;
         version = 0.1)
 public class Core extends Script {
     ArrayList<Strategy> strategies = new ArrayList<>();
+        
     @Override
     public boolean onExecute() {
         strategies.add(new Fish());
